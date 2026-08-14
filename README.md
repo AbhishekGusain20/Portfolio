@@ -64,7 +64,7 @@ Some projects included in my portfolio:
 
 * Personal Portfolio
 * Netflix Clone
-* Amazon Prime Clone
+* StreamBox
 * Quiz App
 * Smart Campus Dashboard
 * Event Booking Platform
