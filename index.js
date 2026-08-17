@@ -1,48 +1,12 @@
-// ================= MENU =================
-
-const menuBtn = document.getElementById("menuBtn");
-const navLinks = document.getElementById("navLinks");
-
-menuBtn.addEventListener("click", () => {
-
-    navLinks.classList.toggle("open");
-
-    if (navLinks.classList.contains("open")) {
-        menuBtn.textContent = "×";
-    } else {
-        menuBtn.textContent = "☰";
-    }
-
-});
-
-
-// Close mobile menu after clicking a link
-
-document.querySelectorAll("#navLinks a").forEach(link => {
-
-    link.addEventListener("click", () => {
-
-        navLinks.classList.remove("open");
-
-        menuBtn.textContent = "☰";
-
-    });
-
-});
-
-
-// ================= DARK MODE =================
+/* ================= THEME ================= */
 
 const themeBtn = document.getElementById("themeBtn");
 
-const savedTheme = localStorage.getItem("theme");
+const savedTheme = localStorage.getItem("portfolio-theme");
 
 if (savedTheme === "dark") {
-
     document.body.classList.add("dark");
-
     themeBtn.textContent = "☀";
-
 }
 
 
@@ -50,61 +14,120 @@ themeBtn.addEventListener("click", () => {
 
     document.body.classList.toggle("dark");
 
-    const darkMode =
+    const isDark =
         document.body.classList.contains("dark");
 
-    if (darkMode) {
+    localStorage.setItem(
+        "portfolio-theme",
+        isDark ? "dark" : "light"
+    );
 
-        themeBtn.textContent = "☀";
-
-        localStorage.setItem("theme", "dark");
-
-    } else {
-
-        themeBtn.textContent = "☾";
-
-        localStorage.setItem("theme", "light");
-
-    }
+    themeBtn.textContent =
+        isDark ? "☀" : "☾";
 
 });
 
 
-// ================= SCROLL ANIMATION =================
+/* ================= MOBILE MENU ================= */
 
-const observer = new IntersectionObserver(
+const menuBtn = document.getElementById("menuBtn");
 
-    (entries) => {
-
-        entries.forEach(entry => {
-
-            if (entry.isIntersecting) {
-
-                entry.target.classList.add("visible");
-
-            }
-
-        });
-
-    },
-
-    {
-        threshold: 0.12
-    }
-
-);
+const navLinks = document.getElementById("navLinks");
 
 
-document.querySelectorAll(".reveal").forEach(element => {
+menuBtn.addEventListener("click", () => {
 
-    observer.observe(element);
+    const isOpen =
+        navLinks.classList.toggle("open");
+
+    menuBtn.setAttribute(
+        "aria-expanded",
+        isOpen
+    );
+
+    menuBtn.textContent =
+        isOpen ? "✕" : "☰";
+
+    document.body.classList.toggle(
+        "menu-open",
+        isOpen
+    );
 
 });
 
 
-// ================= BACK TO TOP =================
+/* ================= CLOSE MOBILE MENU ================= */
 
-const topBtn = document.getElementById("topBtn");
+const navItems =
+    document.querySelectorAll("#navLinks a");
+
+
+navItems.forEach((link) => {
+
+    link.addEventListener("click", () => {
+
+        navLinks.classList.remove("open");
+
+        menuBtn.setAttribute(
+            "aria-expanded",
+            "false"
+        );
+
+        menuBtn.textContent = "☰";
+
+        document.body.classList.remove(
+            "menu-open"
+        );
+
+    });
+
+});
+
+
+/* ================= SCROLL REVEAL ================= */
+
+const revealElements =
+    document.querySelectorAll(".reveal");
+
+
+const revealObserver =
+    new IntersectionObserver(
+        (entries, observer) => {
+
+            entries.forEach((entry) => {
+
+                if (entry.isIntersecting) {
+
+                    entry.target.classList.add(
+                        "visible"
+                    );
+
+                    observer.unobserve(
+                        entry.target
+                    );
+
+                }
+
+            });
+
+        },
+        {
+            threshold: 0.12
+        }
+    );
+
+
+revealElements.forEach((element) => {
+
+    revealObserver.observe(element);
+
+});
+
+
+/* ================= BACK TO TOP ================= */
+
+const topBtn =
+    document.getElementById("topBtn");
 
 
 window.addEventListener("scroll", () => {
@@ -125,17 +148,14 @@ window.addEventListener("scroll", () => {
 topBtn.addEventListener("click", () => {
 
     window.scrollTo({
-
         top: 0,
-
         behavior: "smooth"
-
     });
 
 });
 
 
-// ================= FOOTER YEAR =================
+/* ================= CURRENT YEAR ================= */
 
 document.getElementById("year").textContent =
     new Date().getFullYear();

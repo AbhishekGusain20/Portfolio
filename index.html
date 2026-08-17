@@ -1,848 +1,1281 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
-          content="Abhishek Gusain - B.Tech CSE Student and Aspiring Frontend Developer">
+        content="Abhishek Gusain - B.Tech Computer Science Engineering student, software developer and problem solver. Explore projects, skills, internships and coding practice.">
 
-    <title>Abhishek Gusain | Frontend Developer</title>
+    <meta name="keywords"
+        content="Abhishek Gusain, Software Developer, Web Developer, Java, JavaScript, DSA, LeetCode, HTML, CSS, GitHub">
+
+    <meta name="author" content="Abhishek Gusain">
+
+    <title>Abhishek Gusain | Software Developer</title>
 
     <link rel="stylesheet" href="index.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-          rel="stylesheet">
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
 
-<!-- ================= NAVBAR ================= -->
+    <!-- ================= NAVBAR ================= -->
 
-<header class="navbar">
+    <header class="navbar">
 
-    <a href="#home" class="logo">
-        AG<span>.</span>
-    </a>
+        <a href="#home" class="logo" aria-label="Abhishek Gusain Home">
+            AG<span>.</span>
+        </a>
 
-    <nav id="navLinks">
+        <nav id="navLinks">
 
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#experience">Experience</a>
-        <a href="Abhishek_Gusain_Resume.pdf" download>
-    Download Resume
-</a>
-        <a href="#projects">Projects</a>
-        <a href="#certificates">Certificates</a>
-        <a href="#contact">Contact</a>
-        
+            <a href="#home">Home</a>
 
-    </nav>
+            <a href="#about">About</a>
 
-    <div class="nav-buttons">
+            <a href="#skills">Skills</a>
 
-        <button id="themeBtn" class="theme-btn">
-            ☾
-        </button>
+            <a href="#experience">Experience</a>
 
-        <button id="menuBtn" class="menu-btn">
-            ☰
-        </button>
+            <a href="#projects">Projects</a>
 
-    </div>
+            <a href="#problem-solving">DSA</a>
 
-</header>
+            <a href="#certificates">Certificates</a>
 
+            <a href="#contact">Contact</a>
 
-<main>
+        </nav>
 
-<!-- ================= HERO ================= -->
+        <div class="nav-actions">
 
-<section class="hero section" id="home">
+            <a
+                href="Abhishek-Gusain-Resume.pdf"
+                class="resume-nav-btn"
+                target="_blank"
+                rel="noopener noreferrer">
 
-    <div class="hero-content reveal">
-
-        <p class="eyebrow">
-            B.TECH CSE STUDENT • ASPIRING FRONTEND DEVELOPER
-        </p>
-
-        <h1>
-            Hi, I'm <span>Abhishek Gusain</span>
-        </h1>
-
-        <h2>
-            I build clean & responsive web experiences.
-        </h2>
-
-        <p class="hero-text">
-            B.Tech Computer Science Engineering student with hands-on
-            frontend web development internship experience. I enjoy
-            creating responsive and user-friendly web applications.
-        </p>
-
-        <div class="hero-buttons">
-
-
-            <a href="Abhishek_Gusain_Resume.pdf"
-               
-               class="btn primary">
-
-                view Resume
+                Resume
 
             </a>
 
-            <a href="#projects" class="btn primary">
-                View Projects
-            </a>
+            <button
+                id="themeBtn"
+                class="theme-btn"
+                aria-label="Toggle dark mode">
 
+                ☾
 
-            <a href="#contact" class="btn secondary">
-                Contact Me
-            </a>
+            </button>
+
+            <button
+                id="menuBtn"
+                class="menu-btn"
+                aria-label="Open navigation menu"
+                aria-expanded="false">
+
+                ☰
+
+            </button>
 
         </div>
 
-        <div class="quick-links">
-
-            <a href="https://github.com/AbhishekGusain20"
-               target="_blank">
-                GitHub ↗
-            </a>
-
-            <a href="https://www.linkedin.com/in/abhishek-gusain-8795a3363/"
-               target="_blank">
-                LinkedIn ↗
-            </a>
-
-            <a href="https://leetcode.com/u/Abhishek_Gusain/"
-               target="_blank">
-                LeetCode ↗
-            </a>
-
-        </div>
-
-    </div>
+    </header>
 
 
-    <div class="hero-card reveal">
+    <main>
 
-        <div class="profile-ring">
-            AG
-        </div>
+        <!-- ================= HERO ================= -->
 
-        <h3>
-            Frontend Developer
-        </h3>
+        <section class="hero section" id="home">
 
-        <p>
-            HTML • CSS • JavaScript
-        </p>
+            <div class="hero-content reveal">
 
-        <div class="stat-row">
-
-            <div>
-                <strong>7.4</strong>
-                <small>CGPA</small>
-            </div>
-
-            <div>
-                <strong>2</strong>
-                <small>Internships</small>
-            </div>
-
-            <div>
-                <strong>6+</strong>
-                <small>Projects</small>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= ABOUT ================= -->
-
-<section class="section" id="about">
-
-    <div class="section-heading reveal">
-
-        <p class="eyebrow">
-            ABOUT ME
-        </p>
-
-        <h2>
-            Turning ideas into useful interfaces.
-        </h2>
-
-    </div>
-
-
-    <div class="about-grid">
-
-        <div class="card about-text reveal">
-
-            <p>
-                I am a B.Tech Computer Science Engineering student
-                at Uttaranchal Institute of Technology, focused on
-                frontend web development.
-            </p>
-
-            <p>
-                I am currently learning React, REST APIs, DSA and UI/UX
-                while improving my development skills through practical
-                projects and internships.
-            </p>
-
-            <p>
-                My goal is to build clean, responsive and user-friendly
-                web applications.
-            </p>
-
-        </div>
-
-
-        <div class="card education reveal">
-
-            <h3>
-                Education
-            </h3>
-
-            <div class="timeline-item">
-
-                <span>
-                    2024 – 2028
-                </span>
-
-                <h4>
-                    B.Tech — Computer Science Engineering
-                </h4>
-
-                <p>
-                    Uttaranchal Institute of Technology
+                <p class="eyebrow">
+                    B.TECH CSE STUDENT • SOFTWARE DEVELOPER
                 </p>
 
-                <b>
-                    CGPA: 7.4
-                </b>
+                <h1>
+                    Hi, I'm
+                    <span>Abhishek Gusain</span>
+                </h1>
 
-            </div>
+                <h2>
+                    I build web applications and solve problems with code.
+                </h2>
 
+                <p class="hero-text">
 
-            <div class="timeline-item">
+                    B.Tech Computer Science Engineering student with
+                    internship experience in web development. I enjoy
+                    building responsive applications, practicing Java and
+                    DSA, and continuously learning new technologies.
 
-                <span>
-                    Class 12
-                </span>
-
-                <h4>
-                    Shivalik Academy
-                </h4>
-
-                <p>
-                    PCM • 68%
                 </p>
 
+
+                <div class="hero-buttons">
+
+                    <a
+                        href="Abhishek-Gusain-Resume.pdf"
+                        class="btn primary"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        View Resume
+
+                    </a>
+
+                    <a
+                        href="#projects"
+                        class="btn primary">
+
+                        View Projects
+
+                    </a>
+
+                    <a
+                        href="#contact"
+                        class="btn secondary">
+
+                        Contact Me
+
+                    </a>
+
+                </div>
+
+
+                <div class="quick-links">
+
+                    <a
+                        href="https://github.com/AbhishekGusain20"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        GitHub ↗
+
+                    </a>
+
+                    <a
+                        href="https://www.linkedin.com/in/abhishek-gusain-8795a3363/"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        LinkedIn ↗
+
+                    </a>
+
+                    <a
+                        href="https://leetcode.com/u/Abhishek_Gusain/"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        LeetCode ↗
+
+                    </a>
+
+                </div>
+
             </div>
 
 
-            <div class="timeline-item">
+            <div class="hero-card reveal">
 
-                <span>
-                    Class 10
-                </span>
+                <div class="profile-ring">
+                    AG
+                </div>
 
-                <h4>
-                    Trinity High School
-                </h4>
+                <h3>
+                    Software Developer
+                </h3>
 
                 <p>
-                    65%
+                    Web Development • Java • DSA
                 </p>
+
+                <div class="stat-row">
+
+                    <div>
+                        <strong>7.4</strong>
+                        <small>CGPA</small>
+                    </div>
+
+                    <div>
+                        <strong>2</strong>
+                        <small>Internships</small>
+                    </div>
+
+                    <div>
+                        <strong>6+</strong>
+                        <small>Projects</small>
+                    </div>
+
+                </div>
 
             </div>
 
-        </div>
-
-    </div>
-
-</section>
+        </section>
 
 
-<!-- ================= SKILLS ================= -->
+        <!-- ================= ABOUT ================= -->
 
-<section class="section" id="skills">
+        <section class="section" id="about">
 
-    <div class="section-heading reveal">
+            <div class="section-heading reveal">
 
-        <p class="eyebrow">
-            TECHNICAL SKILLS
-        </p>
+                <p class="eyebrow">
+                    ABOUT ME
+                </p>
 
-        <h2>
-            My technical toolkit.
-        </h2>
+                <h2>
+                    Developer focused on learning, building and solving.
+                </h2>
 
-    </div>
-
-
-    <div class="skills-grid">
-
-        <div class="skill-card reveal">
-            <span>01</span>
-            <h3>HTML</h3>
-            <p>
-                Semantic and structured web pages.
-            </p>
-        </div>
+            </div>
 
 
-        <div class="skill-card reveal">
-            <span>02</span>
-            <h3>CSS</h3>
-            <p>
-                Responsive layouts and modern UI styling.
-            </p>
-        </div>
+            <div class="about-grid">
+
+                <div class="card about-text reveal">
+
+                    <p>
+
+                        I am a B.Tech Computer Science Engineering student
+                        at Uttaranchal Institute of Technology.
+
+                    </p>
+
+                    <p>
+
+                        My current focus is web development along with
+                        Java programming, Data Structures and Algorithms.
+                        I am also learning React, REST APIs and UI/UX.
+
+                    </p>
+
+                    <p>
+
+                        I enjoy turning ideas into practical applications
+                        and improving my problem-solving skills through
+                        coding practice and projects.
+
+                    </p>
+
+                </div>
 
 
-        <div class="skill-card reveal">
-            <span>03</span>
-            <h3>JavaScript</h3>
-            <p>
-                Interactive and dynamic web experiences.
-            </p>
-        </div>
+                <div class="card education reveal">
+
+                    <h3>
+                        Education
+                    </h3>
 
 
-        <div class="skill-card reveal">
-            <span>04</span>
-            <h3>Java</h3>
-            <p>
-                Basic Java programming and DSA practice.
-            </p>
-        </div>
+                    <div class="timeline-item">
+
+                        <span>
+                            2024 – 2028
+                        </span>
+
+                        <h4>
+                            B.Tech — Computer Science Engineering
+                        </h4>
+
+                        <p>
+                            Uttaranchal Institute of Technology
+                        </p>
+
+                        <b>
+                            CGPA: 7.4
+                        </b>
+
+                    </div>
 
 
-        <div class="skill-card reveal">
-            <span>05</span>
-            <h3>Git & GitHub</h3>
-            <p>
-                Version control and project management.
-            </p>
-        </div>
+                    <div class="timeline-item">
+
+                        <span>
+                            Class 12
+                        </span>
+
+                        <h4>
+                            Shivalik Academy
+                        </h4>
+
+                        <p>
+                            PCM • 68%
+                        </p>
+
+                    </div>
 
 
-        <div class="skill-card reveal">
-            <span>06</span>
-            <h3>React</h3>
-            <p>
-                Currently learning React development.
-            </p>
-        </div>
+                    <div class="timeline-item">
+
+                        <span>
+                            Class 10
+                        </span>
+
+                        <h4>
+                            Trinity High School
+                        </h4>
+
+                        <p>
+                            65%
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
 
 
-        <div class="skill-card reveal">
-            <span>07</span>
-            <h3>REST APIs</h3>
-            <p>
-                Currently learning API integration.
-            </p>
-        </div>
+        <!-- ================= SKILLS ================= -->
+
+        <section class="section" id="skills">
+
+            <div class="section-heading reveal">
+
+                <p class="eyebrow">
+                    TECHNICAL SKILLS
+                </p>
+
+                <h2>
+                    Technologies I use and learn.
+                </h2>
+
+            </div>
 
 
-        <div class="skill-card reveal">
-            <span>08</span>
-            <h3>UI / UX</h3>
-            <p>
-                Currently learning user-centered design.
-            </p>
-        </div>
+            <div class="skill-category reveal">
 
-    </div>
+                <div class="skill-category-heading">
 
-</section>
+                    <h3>
+                        Core Skills
+                    </h3>
 
+                    <p>
+                        Technologies I currently use for development and programming practice.
+                    </p>
 
-<!-- ================= EXPERIENCE ================= -->
-
-<section class="section" id="experience">
-
-    <div class="section-heading reveal">
-
-        <p class="eyebrow">
-            EXPERIENCE
-        </p>
-
-        <h2>
-            Internship experience.
-        </h2>
-
-    </div>
+                </div>
 
 
-    <div class="experience-list">
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+                        <span>01</span>
+
+                        <h3>
+                            HTML
+                        </h3>
+
+                        <p>
+                            Semantic and structured web pages.
+                        </p>
+
+                    </div>
 
 
-        <!-- CODTECH -->
+                    <div class="skill-card">
+                        <span>02</span>
 
-        <article class="experience-card reveal">
+                        <h3>
+                            CSS
+                        </h3>
 
-            <div class="experience-top">
+                        <p>
+                            Responsive layouts and modern styling.
+                        </p>
 
-                <div>
+                    </div>
 
-                    <p class="company">
+
+                    <div class="skill-card">
+                        <span>03</span>
+
+                        <h3>
+                            JavaScript
+                        </h3>
+
+                        <p>
+                            Interactive and dynamic web applications.
+                        </p>
+
+                    </div>
+
+
+                    <div class="skill-card">
+                        <span>04</span>
+
+                        <h3>
+                            Java
+                        </h3>
+
+                        <p>
+                            Programming fundamentals and DSA practice.
+                        </p>
+
+                    </div>
+
+
+                    <div class="skill-card">
+                        <span>05</span>
+
+                        <h3>
+                            Git & GitHub
+                        </h3>
+
+                        <p>
+                            Version control and project collaboration.
+                        </p>
+
+                    </div>
+
+
+                    <div class="skill-card">
+                        <span>06</span>
+
+                        <h3>
+                            DSA
+                        </h3>
+
+                        <p>
+                            Arrays, strings, matrices and problem solving.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="skill-category learning-category reveal">
+
+                <div class="skill-category-heading">
+
+                    <h3>
+                        Currently Learning
+                    </h3>
+
+                    <p>
+                        Technologies I am actively exploring and improving.
+                    </p>
+
+                </div>
+
+
+                <div class="learning-grid">
+
+                    <div class="learning-card">
+
+                        <strong>
+                            React
+                        </strong>
+
+                        <span>
+                            Learning
+                        </span>
+
+                    </div>
+
+
+                    <div class="learning-card">
+
+                        <strong>
+                            REST APIs
+                        </strong>
+
+                        <span>
+                            Learning
+                        </span>
+
+                    </div>
+
+
+                    <div class="learning-card">
+
+                        <strong>
+                            UI / UX
+                        </strong>
+
+                        <span>
+                            Learning
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= EXPERIENCE ================= -->
+
+        <section class="section" id="experience">
+
+            <div class="section-heading reveal">
+
+                <p class="eyebrow">
+                    EXPERIENCE
+                </p>
+
+                <h2>
+                    Internship experience.
+                </h2>
+
+            </div>
+
+
+            <div class="experience-list">
+
+
+                <!-- CODTECH -->
+
+                <article class="experience-card reveal">
+
+                    <div class="experience-top">
+
+                        <div>
+
+                            <p class="company">
+                                CODTECH IT SOLUTIONS PRIVATE LIMITED
+                            </p>
+
+                            <h3>
+                                Frontend Web Development Intern
+                            </h3>
+
+                        </div>
+
+                        <span>
+                            Jun 26, 2025 – Jul 26, 2025
+                        </span>
+
+                    </div>
+
+
+                    <ul>
+
+                        <li>
+                            Completed a 4-week online internship
+                            in Frontend Web Development.
+                        </li>
+
+                        <li>
+                            Developed responsive web pages using
+                            HTML, CSS and JavaScript.
+                        </li>
+
+                        <li>
+                            Worked with reusable UI components and
+                            mobile-responsive layouts.
+                        </li>
+
+                        <li>
+                            Used Git and GitHub for version control.
+                        </li>
+
+                    </ul>
+
+
+                    <div class="credential-row">
+
+                        <span>
+                            <strong>Credential Type:</strong>
+                            Intern ID
+                        </span>
+
+                        <span>
+                            <strong>Intern ID:</strong>
+                            CT04DH47
+                        </span>
+
+                    </div>
+
+
+                    <a
+                        href="Internship-Certificate1.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="text-link">
+
+                        View Internship Certificate ↗
+
+                    </a>
+
+                </article>
+
+
+                <!-- CODEC -->
+
+                <article class="experience-card reveal">
+
+                    <div class="experience-top">
+
+                        <div>
+
+                            <p class="company">
+                                CODEC TECHNOLOGIES
+                            </p>
+
+                            <h3>
+                                Frontend Web Development Intern
+                            </h3>
+
+                        </div>
+
+                        <span>
+                            Jun 5, 2026 – Jul 5, 2026
+                        </span>
+
+                    </div>
+
+
+                    <ul>
+
+                        <li>
+                            Completed a frontend web development
+                            internship program.
+                        </li>
+
+                        <li>
+                            Practiced responsive web development
+                            using HTML, CSS and JavaScript.
+                        </li>
+
+                        <li>
+                            Improved practical understanding of
+                            frontend development workflows.
+                        </li>
+
+                        <li>
+                            Used Git/GitHub as part of the development
+                            workflow.
+                        </li>
+
+                    </ul>
+
+
+                    <div class="credential-row">
+
+                        <span>
+                            <strong>Credential Type:</strong>
+                            AICTE ID
+                        </span>
+
+                        <span>
+                            <strong>AICTE ID:</strong>
+                            CORPORATE6759d549ce59e1733940428
+                        </span>
+
+                    </div>
+
+
+                    <a
+                        href="Internship-Certificate2.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="text-link">
+
+                        View Internship Credential ↗
+
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+
+        <section class="section" id="projects">
+
+            <div class="section-heading reveal">
+
+                <p class="eyebrow">
+                    PROJECTS
+                </p>
+
+                <h2>
+                    Things I've built and practiced.
+                </h2>
+
+            </div>
+
+
+            <div class="projects-grid">
+
+
+                <article class="project-card reveal">
+
+                    <div class="project-icon">
+                        01
+                    </div>
+
+                    <h3>
+                        Personal Portfolio
+                    </h3>
+
+                    <p>
+                        Responsive portfolio website showcasing
+                        education, skills, projects, experience and
+                        professional links.
+                    </p>
+
+                    <div class="tags">
+
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card reveal">
+
+                    <div class="project-icon">
+                        02
+                    </div>
+
+                    <h3>
+                        Netflix Clone
+                    </h3>
+
+                    <p>
+                        Streaming-style frontend project focused on
+                        layouts, reusable sections and responsive design.
+                    </p>
+
+                    <div class="tags">
+
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card reveal">
+
+                    <div class="project-icon">
+                        03
+                    </div>
+
+                    <h3>
+                        StreamBox
+                    </h3>
+
+                    <p>
+                        Entertainment-platform interface focused on
+                        responsive layouts and user interface design.
+                    </p>
+
+                    <div class="tags">
+
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card reveal">
+
+                    <div class="project-icon">
+                        04
+                    </div>
+
+                    <h3>
+                        Quiz App
+                    </h3>
+
+                    <p>
+                        Interactive quiz application with question
+                        handling, user interaction and score calculation.
+                    </p>
+
+                    <div class="tags">
+
+                        <span>JavaScript</span>
+                        <span>DOM</span>
+                        <span>CSS</span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card reveal">
+
+                    <div class="project-icon">
+                        05
+                    </div>
+
+                    <h3>
+                        Smart Campus Dashboard
+                    </h3>
+
+                    <p>
+                        Dashboard concept for presenting campus
+                        information through an organized interface.
+                    </p>
+
+                    <div class="tags">
+
+                        <span>UI/UX</span>
+                        <span>Dashboard</span>
+                        <span>Frontend</span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card reveal">
+
+                    <div class="project-icon">
+                        06
+                    </div>
+
+                    <h3>
+                        Event Booking Platform
+                    </h3>
+
+                    <p>
+                        Frontend platform concept for browsing events
+                        and creating a simple booking experience.
+                    </p>
+
+                    <div class="tags">
+
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card reveal">
+
+                    <div class="project-icon">
+                        07
+                    </div>
+
+                    <h3>
+                        Java DSA Practice
+                    </h3>
+
+                    <p>
+                        Collection of Java programming and DSA practice
+                        covering arrays, strings, matrices and common
+                        problem-solving patterns.
+                    </p>
+
+                    <div class="tags">
+
+                        <span>Java</span>
+                        <span>DSA</span>
+                        <span>LeetCode</span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card reveal">
+
+                    <div class="project-icon">
+                        08
+                    </div>
+
+                    <h3>
+                        API Integration Practice
+                    </h3>
+
+                    <p>
+                        Learning project focused on understanding REST
+                        APIs, fetching data and displaying API responses
+                        in web interfaces.
+                    </p>
+
+                    <div class="tags">
+
+                        <span>JavaScript</span>
+                        <span>REST API</span>
+                        <span>Learning</span>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROBLEM SOLVING ================= -->
+
+        <section class="section" id="problem-solving">
+
+            <div class="section-heading reveal">
+
+                <p class="eyebrow">
+                    PROBLEM SOLVING
+                </p>
+
+                <h2>
+                    I also practice solving problems with code.
+                </h2>
+
+            </div>
+
+
+            <div class="problem-grid">
+
+
+                <div class="problem-card reveal">
+
+                    <div class="problem-number">
+                        01
+                    </div>
+
+                    <h3>
+                        Java & DSA
+                    </h3>
+
+                    <p>
+                        Regular practice with Java programming,
+                        arrays, strings, matrices and algorithmic
+                        problem solving.
+                    </p>
+
+                    <div class="tags">
+
+                        <span>Java</span>
+                        <span>Arrays</span>
+                        <span>Strings</span>
+                        <span>DSA</span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="problem-card reveal">
+
+                    <div class="problem-number">
+                        02
+                    </div>
+
+                    <h3>
+                        LeetCode Practice
+                    </h3>
+
+                    <p>
+                        Solving coding problems to improve logic,
+                        data structure knowledge and programming
+                        fundamentals.
+                    </p>
+
+                    <a
+                        href="https://leetcode.com/u/Abhishek_Gusain/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="text-link">
+
+                        View LeetCode Profile ↗
+
+                    </a>
+
+                </div>
+
+
+                <div class="problem-card reveal">
+
+                    <div class="problem-number">
+                        03
+                    </div>
+
+                    <h3>
+                        Continuous Learning
+                    </h3>
+
+                    <p>
+                        Currently improving DSA while expanding
+                        knowledge of React, REST APIs and modern
+                        web development.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CERTIFICATES ================= -->
+
+        <section class="section" id="certificates">
+
+            <div class="section-heading reveal">
+
+                <p class="eyebrow">
+                    CREDENTIALS
+                </p>
+
+                <h2>
+                    Certificates & internship credentials.
+                </h2>
+
+            </div>
+
+
+            <div class="certificate-grid">
+
+
+                <!-- CERTIFICATE 1 -->
+
+                <article class="certificate-card reveal">
+
+                    <div class="certificate-badge">
+                        INTERNSHIP CERTIFICATE
+                    </div>
+
+                    <h3>
+                        Frontend Web Development
+                    </h3>
+
+                    <p>
                         CODTECH IT SOLUTIONS PRIVATE LIMITED
                     </p>
 
+                    <div class="certificate-details">
+
+                        <span>
+                            <strong>Credential Type:</strong>
+                            Intern ID
+                        </span>
+
+                        <span>
+                            <strong>Intern ID:</strong>
+                            CT04DH47
+                        </span>
+
+                        <span>
+                            <strong>Duration:</strong>
+                            4-week online internship
+                        </span>
+
+                    </div>
+
+
+                    <a
+                        href="Internship-Certificate1.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn secondary">
+
+                        Open Certificate
+
+                    </a>
+
+                </article>
+
+
+                <!-- CERTIFICATE 2 -->
+
+                <article
+                    class="certificate-card reveal"
+                    aria-label="CODEC Technologies internship credential">
+
+                    <div class="certificate-badge">
+                        INTERNSHIP CREDENTIAL
+                    </div>
+
                     <h3>
-                        Frontend Web Development Intern
+                        Frontend Web Development
                     </h3>
 
-                </div>
-
-                <span>
-                    Jun 26, 2025 – Jul 26, 2025
-                </span>
-
-            </div>
-
-
-            <ul>
-
-                <li>
-                    Completed a 4-week online internship program
-                    in Frontend Web Development.
-                </li>
-
-                <li>
-                    Developed responsive web pages using
-                    HTML, CSS and JavaScript.
-                </li>
-
-                <li>
-                    Implemented reusable UI components and
-                    improved mobile responsiveness.
-                </li>
-
-                <li>
-                    Worked with Git/GitHub for version control.
-                </li>
-
-            </ul>
-
-
-            <a href="Internship Certificate1.pdf"
-               target="_blank"
-               class="text-link">
-
-                View Internship Certificate ↗
-
-            </a>
-
-        </article>
-
-
-
-        <!-- CODEC -->
-
-        <article class="experience-card reveal">
-
-            <div class="experience-top">
-
-                <div>
-
-                    <p class="company">
+                    <p>
                         CODEC TECHNOLOGIES
                     </p>
 
-                    <h3>
-                        Frontend Web Development Intern
-                    </h3>
+
+                    <div class="certificate-details">
+
+                        <span>
+                            <strong>Credential Type:</strong>
+                            AICTE ID
+                        </span>
+
+                        <span>
+                            <strong>AICTE ID:</strong>
+                            CORPORATE6759d549ce59e1733940428
+                        </span>
+
+                        <span>
+                            <strong>Period:</strong>
+                            Jun 5, 2026 – Jul 5, 2026
+                        </span>
+
+                    </div>
+
+
+                    <p class="accessibility-note">
+
+                        Certificate preview contains limited
+                        machine-readable text. The credential details
+                        above are provided as accessible text for
+                        visitors and recruiters.
+
+                    </p>
+
+
+                    <a
+                        href="Internship-Certificate2.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn secondary">
+
+                        Open Credential
+
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section class="section contact-section" id="contact">
+
+            <div class="contact-card reveal">
+
+                <p class="eyebrow">
+                    GET IN TOUCH
+                </p>
+
+                <h2>
+                    Let's build something useful.
+                </h2>
+
+                <p>
+                    I'm open to software development internships,
+                    web development projects and learning opportunities.
+                </p>
+
+
+                <div class="contact-links">
+
+                    <a
+                        href="mailto:abhishek.gusain2006@gmail.com">
+
+                        Email
+
+                    </a>
+
+                    <a
+                        href="tel:+919259208065">
+
+                        Call
+
+                    </a>
+
+                    <a
+                        href="https://github.com/AbhishekGusain20"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        GitHub
+
+                    </a>
+
+                    <a
+                        href="https://www.linkedin.com/in/abhishek-gusain-8795a3363/"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        LinkedIn
+
+                    </a>
+
+                    <a
+                        href="https://leetcode.com/u/Abhishek_Gusain/"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        LeetCode
+
+                    </a>
 
                 </div>
 
-                <span>
-                    Jun 5, 2026 – Jul 5, 2026
-                </span>
-
             </div>
 
+        </section>
 
-            <ul>
+    </main>
 
-                <li>
-                    Developed responsive web pages using
-                    HTML, CSS and JavaScript.
-                </li>
 
-                <li>
-                    Implemented reusable UI components and
-                    improved mobile responsiveness.
-                </li>
+    <!-- ================= FOOTER ================= -->
 
-                <li>
-                    Worked with Git/GitHub for version control.
-                </li>
-
-            </ul>
-
-
-            <p class="credential">
-                AICTE ID:
-                CORPORATE6759d549ce59e1733940428
-            </p>
-
-
-            <a href="Internship Certificate2.pdf"
-               target="_blank"
-               class="text-link">
-
-                View Internship Credential ↗
-
-            </a>
-
-        </article>
-
-    </div>
-
-</section>
-
-
-<!-- ================= PROJECTS ================= -->
-
-<section class="section" id="projects">
-
-    <div class="section-heading reveal">
-
-        <p class="eyebrow">
-            PROJECTS
-        </p>
-
-        <h2>
-            Things I've built.
-        </h2>
-
-    </div>
-
-
-    <div class="projects-grid">
-
-
-        <article class="project-card reveal">
-
-            <div class="project-icon">
-                01
-            </div>
-
-            <h3>
-                Personal Portfolio
-            </h3>
-
-            <p>
-                Responsive portfolio website presenting profile,
-                skills, education, projects and professional links.
-            </p>
-
-            <div class="tags">
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
-            </div>
-
-        </article>
-
-
-        <article class="project-card reveal">
-
-            <div class="project-icon">
-                02
-            </div>
-
-            <h3>
-                Netflix Clone
-            </h3>
-
-            <p>
-                Frontend clone project focused on streaming-style
-                layouts and responsive design.
-            </p>
-
-            <div class="tags">
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
-            </div>
-
-        </article>
-
-
-        <article class="project-card reveal">
-
-            <div class="project-icon">
-                03
-            </div>
-
-            <h3>
-                StreamBox
-            </h3>
-
-            <p>
-                Entertainment-platform UI project focused on
-                styling and responsive layouts.
-            </p>
-
-            <div class="tags">
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
-            </div>
-
-        </article>
-
-
-        <article class="project-card reveal">
-
-            <div class="project-icon">
-                04
-            </div>
-
-            <h3>
-                Quiz App
-            </h3>
-
-            <p>
-                Interactive JavaScript quiz application with
-                user interaction and score handling.
-            </p>
-
-            <div class="tags">
-                <span>JavaScript</span>
-                <span>DOM</span>
-                <span>CSS</span>
-            </div>
-
-        </article>
-
-
-        <article class="project-card reveal">
-
-            <div class="project-icon">
-                05
-            </div>
-
-            <h3>
-                Smart Campus Dashboard
-            </h3>
-
-            <p>
-                Dashboard concept for presenting campus information
-                in an organized interface.
-            </p>
-
-            <div class="tags">
-                <span>UI/UX</span>
-                <span>Dashboard</span>
-                <span>Frontend</span>
-            </div>
-
-        </article>
-
-
-        <article class="project-card reveal">
-
-            <div class="project-icon">
-                06
-            </div>
-
-            <h3>
-                Event Booking Platform
-            </h3>
-
-            <p>
-                Frontend platform concept for browsing events
-                and creating a simple booking experience.
-            </p>
-
-            <div class="tags">
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
-            </div>
-
-        </article>
-
-    </div>
-
-</section>
-
-
-<!-- ================= CERTIFICATES ================= -->
-
-<section class="section" id="certificates">
-
-    <div class="section-heading reveal">
-
-        <p class="eyebrow">
-            CREDENTIALS
-        </p>
-
-        <h2>
-            Certificates & internship credentials.
-        </h2>
-
-    </div>
-
-
-    <div class="certificate-grid">
-
-
-        <article class="certificate-card reveal">
-
-            <div class="certificate-badge">
-                INTERNSHIP CERTIFICATE
-            </div>
-
-            <h3>
-                Frontend Web Development
-            </h3>
-
-            <p>
-                CODTECH IT SOLUTIONS PRIVATE LIMITED
-            </p>
-
-            <small>
-                Intern ID: CT04DH47
-                <br>
-                4-week online internship
-            </small>
-
-            <a href="Internship Certificate1.pdf"
-               target="_blank"
-               class="btn secondary">
-
-                Open Certificate
-
-            </a>
-
-        </article>
-
-
-
-        <article class="certificate-card reveal">
-
-            <div class="certificate-badge">
-                INTERNSHIP CREDENTIAL
-            </div>
-
-            <h3>
-                Frontend Web Development
-            </h3>
-
-            <p>
-                CODEC TECHNOLOGIES
-            </p>
-
-            <small>
-                AICTE ID:
-                CORPORATE6759d549ce59e1733940428
-            </small>
-
-            <a href="Internship Certificate2.pdf"
-               target="_blank"
-               class="btn secondary">
-
-                Open Credential
-
-            </a>
-
-        </article>
-
-    </div>
-
-</section>
-
-
-<!-- ================= CONTACT ================= -->
-
-<section class="section contact-section" id="contact">
-
-    <div class="contact-card reveal">
-
-        <p class="eyebrow">
-            GET IN TOUCH
-        </p>
-
-        <h2>
-            Let's build something useful.
-        </h2>
+    <footer>
 
         <p>
-            I'm open to frontend development internships,
-            projects and learning opportunities.
+
+            © <span id="year"></span>
+            Abhishek Gusain.
+            Built with HTML, CSS & JavaScript.
+
         </p>
 
-
-        <div class="contact-links">
-
-            <a href="mailto:abhishek.gusain2006@gmail.com">
-                Email
-            </a>
-
-            <a href="tel:+919259208065">
-                Call
-            </a>
-
-            <a href="https://github.com/AbhishekGusain20"
-               target="_blank">
-                GitHub
-            </a>
-
-            <a href="https://www.linkedin.com/in/abhishek-gusain-8795a3363/"
-               target="_blank">
-                LinkedIn
-            </a>
-
-            <a href="https://leetcode.com/u/Abhishek_Gusain/"
-               target="_blank">
-                LeetCode
-            </a>
-
-        </div>
-
-    </div>
-
-</section>
-
-</main>
+    </footer>
 
 
-<!-- ================= FOOTER ================= -->
+    <button
+        id="topBtn"
+        class="top-btn"
+        aria-label="Back to top">
 
-<footer>
+        ↑
 
-    <p>
-        © <span id="year"></span>
-        Abhishek Gusain.
-        Built with HTML, CSS & JavaScript.
-    </p>
-
-</footer>
+    </button>
 
 
-<button id="topBtn" class="top-btn">
-    ↑
-</button>
-
-
-<script src="index.js"></script>
+    <script src="index.js"></script>
 
 </body>
+
 </html>
