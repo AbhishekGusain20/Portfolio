@@ -1,95 +1,104 @@
-# Abhishek Gusain — Personal Portfolio
+# Abhishek Gusain — Software Developer Portfolio
 
-Welcome to my personal portfolio website! 👋
-
-I am **Abhishek Gusain**, a B.Tech Computer Science Engineering student and aspiring Frontend Developer. This portfolio showcases my skills, projects, internship experience, education, and certificates.
+A responsive personal portfolio website showcasing my **skills, projects, internship experience, education, certificates, and coding practice**.
 
 ## 🌐 Live Portfolio
 
-**Portfolio:** https://abhishekgusain20.github.io/Portfolio/
+**[View Portfolio](https://abhishekgusain20.github.io/Portfolio/)**
 
 ## 👨‍💻 About Me
 
-* B.Tech Computer Science Engineering student
-* Aspiring Frontend Developer
-* Interested in Web Development and UI/UX
-* Currently learning React, REST APIs and DSA
-* Enjoy building responsive and user-friendly websites
+I am a **B.Tech Computer Science Engineering student** at Uttaranchal Institute of Technology.
 
-## 🛠️ Technologies Used
+I am interested in:
+
+* Web Development
+* Java Programming
+* Data Structures & Algorithms
+* Problem Solving
+* Software Development
+
+Currently learning **React, REST APIs and UI/UX**.
+
+## 🛠️ Technologies
 
 * HTML5
 * CSS3
 * JavaScript
+* Java
+* Data Structures & Algorithms
 * Git & GitHub
+* React — Learning
+* REST APIs — Learning
 
-## ✨ Features
+## 🚀 Projects
 
-* Responsive portfolio design
-* About Me section
-* Education details
-* Technical skills
-* Internship experience
-* Projects section
-* Certificates section
-* Resume PDF
-* GitHub, LinkedIn and LeetCode links
-* Dark mode
-* Mobile navigation
-* Back-to-top button
-* Scroll animations
+* **Personal Portfolio** — HTML, CSS, JavaScript
+* **Netflix Clone** — HTML, CSS, JavaScript
+* **StreamBox** — HTML, CSS, JavaScript
+* **Quiz App** — JavaScript
+* **Smart Campus Dashboard** — Frontend / UI
+* **Event Booking Platform** — Frontend
+* **Java DSA Practice** — Java & DSA
+* **API Integration Practice** — JavaScript & REST APIs
 
-## 📂 Project Structure
-
-```text
-portfolio/
-│
-├── index.html
-├── index.css
-├── index.js
-├── Abhishek_Gusain_Resume.pdf
-├── Internship Certificate1.pdf
-└── Internship Certificate2.pdf
-```
-
-## 🚀 How to Run
-
-1. Download or clone this repository.
-2. Open the project folder in VS Code.
-3. Open `index.html` in your browser.
-
-## 📌 Projects
-
-Some projects included in my portfolio:
-
-* Personal Portfolio
-* Netflix Clone
-* StreamBox
-* Quiz App
-* Smart Campus Dashboard
-* Event Booking Platform
-
-## 📜 Experience
+## 💼 Internship Experience
 
 ### CODTECH IT SOLUTIONS PRIVATE LIMITED
 
 **Frontend Web Development Intern**
-
 Jun 26, 2025 – Jul 26, 2025
 
 ### CODEC TECHNOLOGIES
 
 **Frontend Web Development Intern**
-
 Jun 5, 2026 – Jul 5, 2026
 
-## 📫 Contact
+## 📚 Education
 
-* **Email:** [abhishek.gusain2006@gmail.com](mailto:abhishek.gusain2006@gmail.com)
-* **GitHub:** https://github.com/AbhishekGusain20
-* **LinkedIn:** https://www.linkedin.com/in/abhishek-gusain-8795a3363/
-* **LeetCode:** https://leetcode.com/u/Abhishek_Gusain/
+**B.Tech — Computer Science Engineering**
+Uttaranchal Institute of Technology
+2024 – 2028 | **CGPA: 7.4**
+
+## 🧠 Coding Profile
+
+**LeetCode:**
+https://leetcode.com/u/Abhishek_Gusain/
+
+**GitHub:**
+https://github.com/AbhishekGusain20
+
+**LinkedIn:**
+https://www.linkedin.com/in/abhishek-gusain-8795a3363/
+
+## 📄 Resume
+
+**[View Resume](./Abhishek-Gusain-Resume.pdf)**
+
+## 📂 Project Structure
+
+```text
+Portfolio/
+├── index.html
+├── index.css
+├── index.js
+├── Abhishek-Gusain-Resume.pdf
+├── Internship-Certificate1.pdf
+├── Internship-Certificate2.pdf
+└── README.md
+```
+
+## ⭐ Features
+
+* Responsive design
+* Dark / Light mode
+* Mobile navigation
+* Projects showcase
+* Internship experience
+* Certificates
+* Resume
+* GitHub, LinkedIn & LeetCode links
 
 ---
 
-⭐ If you like this portfolio, feel free to explore the repository.
+**© 2026 Abhishek Gusain**
